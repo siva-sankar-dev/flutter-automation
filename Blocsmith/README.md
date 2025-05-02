@@ -30,7 +30,7 @@ services/
 ### 1. Clone or Download
 
 ```bash
-curl -O https://github.com/siva-sankar-dev/flutter-automation/blob/main/Blocsmith/blocsmith.sh
+curl -O https://raw.githubusercontent.com/siva-sankar-dev/flutter-automation/refs/heads/master/Blocsmith/blocsmith.sh
 ```
 
 ### 2. Move to Your Flutter Project Root

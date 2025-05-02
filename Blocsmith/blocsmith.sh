@@ -67,8 +67,9 @@ mkdir -p "$services_dir" "$logic_dir" "$view_dir"
 
 # 1) Service
 cat <<EOF > "$services_dir/${module_name}_service.dart"
+// Created by: $developer_name on $today_date
+
 /// Service for $class_name module
-/// Created by: $developer_name on $today_date
 class ${class_name}Service {
   // TODO: implement service methods
 }
@@ -79,6 +80,8 @@ echo "Generating $sm_choice files..."
 if [[ "$sm_choice" == "cubit" ]]; then
   # Cubit & State
   cat <<EOF > "$logic_dir/${module_name}_cubit.dart"
+// Created by: $developer_name on $today_date
+
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import '../services/${module_name}_service.dart';
@@ -92,6 +95,8 @@ class ${class_name}Cubit extends Cubit<${class_name}State> {
 }
 EOF
   cat <<EOF > "$logic_dir/${module_name}_state.dart"
+// Created by: $developer_name on $today_date
+
 part of '${module_name}_cubit.dart';
 
 /// States for ${class_name}Cubit
@@ -102,6 +107,8 @@ EOF
 else
   # Bloc, Event, State
   cat <<EOF > "$logic_dir/${module_name}_event.dart"
+// Created by: $developer_name on $today_date
+
 import 'package:equatable/equatable.dart';
 /// Events for $class_name
 abstract class ${class_name}Event extends Equatable {
@@ -110,6 +117,8 @@ abstract class ${class_name}Event extends Equatable {
 }
 EOF
   cat <<EOF > "$logic_dir/${module_name}_state.dart"
+// Created by: $developer_name on $today_date
+
 import 'package:equatable/equatable.dart';
 /// States for $class_name
 abstract class ${class_name}State extends Equatable {
@@ -119,6 +128,8 @@ abstract class ${class_name}State extends Equatable {
 class ${class_name}Initial extends ${class_name}State {}
 EOF
   cat <<EOF > "$logic_dir/${module_name}_bloc.dart"
+// Created by: $developer_name on $today_date
+
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import '../services/${module_name}_service.dart';
@@ -137,6 +148,8 @@ fi
 # 3) View
 echo "Generating view file..."
 cat <<EOF > "$view_dir/${module_name}_view.dart"
+// Created by: $developer_name on $today_date
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 EOF

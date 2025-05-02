@@ -27,7 +27,7 @@ services/
 
 ## 🚀 Installation & Setup
 
-### 1 Download
+### 1. Download
 
 ```bash
 curl -O https://raw.githubusercontent.com/siva-sankar-dev/flutter-automation/refs/heads/master/Blocsmith/blocsmith.sh

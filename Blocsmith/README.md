@@ -32,7 +32,7 @@ services/
 ### 1. Clone or Download
 
 ```bash
-curl -O https://your-repo-url/blocsmith.sh
+curl -O https://github.com/siva-sankar-dev/flutter-automation/blob/main/Blocsmith/blocsmith.sh
 ````
 
 > ⚠️ Replace the URL with your actual GitHub/raw link once uploaded.

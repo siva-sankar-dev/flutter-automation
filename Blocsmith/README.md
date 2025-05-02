@@ -33,9 +33,7 @@ services/
 
 ```bash
 curl -O https://github.com/siva-sankar-dev/flutter-automation/blob/main/Blocsmith/blocsmith.sh
-````
-
-> ⚠️ Replace the URL with your actual GitHub/raw link once uploaded.
+```
 
 ### 2. Move to Your Flutter Project Root
 

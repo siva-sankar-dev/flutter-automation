@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# * Bloc Smith is created by Sivasankar
+# * Bloc Smith is created by Siva Sankar
 # Updated on: 02/05/2025
 # Purpose: Enforces best practices for Flutter projects using Modular Cubit/Bloc Architecture
 

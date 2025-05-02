@@ -2,7 +2,7 @@
 ```md
 # 🛠️ Blocsmith
 
-Blocsmith is an open-source command-line tool created by **Sivasankar**, designed to enforce **Modular Cubit/Bloc Architecture ** standards for Flutter applications. It helps developers generate clean and scalable module structures with minimal effort.
+Blocsmith is an open-source command-line tool created by **Siva Sankar**, designed to enforce **Modular Cubit/Bloc Architecture** standards for Flutter applications. It helps developers generate clean and scalable module structures with minimal effort.
 
 ---
 
@@ -103,16 +103,8 @@ You’re free to share, modify, and use it in personal or commercial projects.
 
 ## 👨‍💻 Created by
 
-**Sivasankar**
-CEO, [Hum Studios](https://your-company-website.com)
+**Siva Sankar**
 
 Feel free to fork, improve, or contribute back to Blocsmith. ✨
 
 ---
-
-```
-
----
-
-Would you like me to also generate a sample GitHub project structure or include a logo badge?
-```
